@@ -1,2 +1,4 @@
-### 404
-you're looking for [this page](https://talossa.github.io/ktane/manual)
+---
+redirect_to:
+- http://talossa.github.io/ktane/manual
+---
