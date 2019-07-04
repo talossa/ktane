@@ -597,6 +597,24 @@ img.fullpage {
                 </tr>
             </tbody>
         </table>
+        <p>a cheatsheet:</p>
+
+        <button onclick="showc()">show</button>
+
+        <div id="cheat">
+        <img src="https://i.boring.host/1B9IPU8H.png" alt="if this image doesn't display, just use the regular guide." />
+        </div>
+
+        <script>
+        function showc() {
+          var x = document.getElementById("cheat");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
         </div>
         <div id="cwires" class="page">
         <h3>Complicated Wires</h3>
